@@ -46,3 +46,9 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+#paperclip is going to be used for uploading images to our PhotoApp
+gem "paperclip", "~> 5.0.0"
+
+#simple_form will give us a template for our new view for uploading stuff
+gem 'simple_form'
